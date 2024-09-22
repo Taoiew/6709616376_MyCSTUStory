@@ -1,21 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 header
 {
     background-color: aqua;
 }
 
 nav
-{   
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+{
     margin: 0px 0px 0px 0px;
-    height: 150px;
-    background-color: brown;
+    height: 300px;
 }
 
 .profile
 {   
-    display: flex;
+    display: flow-root;
     text-align: left;
+    width: 400px;
+    height: 0px;
+    border-bottom: 100px solid bisque;
+    border-right: 50px solid transparent;
+    position: absolute;
+    top: 220px;
+    right: 0px;
+    left: 0%;
 }
 
 .profile img
@@ -24,4 +34,41 @@ nav
     width: 50px;
     border-radius: 100%;
     object-fit: cover;
+}
+
+.banner
+{   
+    height: 300px;
+    background-color: brown;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 0px 0px 10px;
+}
+
+main div{
+    padding: 2%;
+}
+
+main div h3{
+    margin-top: 2%;
+}
+
+main div p{
+    margin-top: 2%;
+}
+
+main video{
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    background-color: rgb(50, 50, 50);
+    color: rgb(223, 216, 216);
+    padding: 1%;
+    text-align: center;
+    margin-top: 50px;
 }
