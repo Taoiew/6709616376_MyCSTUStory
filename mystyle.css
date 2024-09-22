@@ -1,0 +1,27 @@
+header
+{
+    background-color: aqua;
+}
+
+nav
+{   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px 0px 0px 0px;
+    height: 150px;
+    background-color: brown;
+}
+
+.profile
+{   
+    display: flex;
+    text-align: left;
+}
+
+.profile img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
