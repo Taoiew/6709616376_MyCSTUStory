@@ -3,10 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header
 {   
-    height: 30px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo a {
+    text-decoration:none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 0px 0px 0px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
 }
 
 nav
@@ -55,7 +79,7 @@ nav
     border-bottom: 100px solid bisque;
     border-right: 50px solid transparent;
     position: absolute;
-    top: 230px;
+    top: 241px;
     right: 0px;
     left: 0%;
 }
