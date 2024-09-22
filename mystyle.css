@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 header
-{
+{   
+    height: 30px;
     background-color: aqua;
 }
 
@@ -15,25 +16,32 @@ nav
 }
 
 .profile
-{   
-    display: flow-root;
+{  
+    display: grid;
+    grid-template-columns: 1fr 5fr;
     text-align: left;
     width: 400px;
     height: 0px;
     border-bottom: 100px solid bisque;
     border-right: 50px solid transparent;
     position: absolute;
-    top: 220px;
+    top: 230px;
     right: 0px;
     left: 0%;
 }
 
-.profile img
-{
-    height: 50px;
-    width: 50px;
+.propict img
+{   
+    margin: 10px 0px 0px 10px;
+    height: 80px;
+    width: 80px;
     border-radius: 100%;
     object-fit: cover;
+}
+
+.inform
+{
+    margin: 30px 0px 0px 20px;
 }
 
 .banner
