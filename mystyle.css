@@ -162,3 +162,23 @@ footer{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.box
+{
+    display: grid;
+    grid-row: 1fr 1fr;
+    width: 400px;
+    height: 400px;
+}
+
+.row1
+{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+
+.row2
+{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
