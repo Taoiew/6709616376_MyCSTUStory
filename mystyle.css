@@ -163,22 +163,142 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 800px;
+    width: 800px;
+}
+
 .box
 {
-    display: grid;
-    grid-row: 1fr 1fr;
-    width: 400px;
-    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(248, 250, 250);
+    background-size: cover;
+    background-position: center;
 }
 
-.row1
+.year1
 {
-    display: grid;
-    grid-column: 1fr 1fr;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.row2
+.year1 img
 {
-    display: grid;
-    grid-column: 1fr 1fr;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.year1 .hov1
+{
+    opacity: 0;
+}
+
+.year1:hover .hov1
+{
+    opacity: 1;
+}
+
+.year1:hover .ori1
+{
+    opacity: 0;
+}
+
+.year2
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.year2 img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.year2 .hov2
+{
+    opacity: 0;
+}
+
+.year2:hover .hov2
+{
+    opacity: 1;
+}
+
+.year2:hover .ori2
+{
+    opacity: 0;
+}
+
+.year3
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.year3 img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.year3 .hov3
+{
+    opacity: 0;
+}
+
+.year3:hover .hov3
+{
+    opacity: 1;
+}
+
+.year3:hover .ori3
+{
+    opacity: 0;
+}
+
+.year4
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.year4 img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.year4 .hov4
+{
+    opacity: 0;
+}
+
+.year4:hover .hov4
+{
+    opacity: 1;
+}
+
+.year4:hover .ori4
+{
+    opacity: 0;
 }
