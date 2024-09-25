@@ -11,12 +11,54 @@ header
     padding: 10px;
 }
 
-.logo a {
-    text-decoration:none;
+.logo
+{
+    float: left;
+
+}
+
+.To:hover
+{
+    color: blue;
+}
+
+.To
+{
+    animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink
+{
+    to{visibility: hidden;}
+}
+
+.topic
+{
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 16px 0px gray;
+    background-color: rgb(208, 209, 207);
+    width: 15%;
     color: black;
-    font-weight: bold;
-    font-size: 18px;
-    margin: 0px 0px 0px 0px;
+}
+
+.logo:hover .topic
+{
+    display: block;
+    z-index: 1;
+
+}
+
+.list
+{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+}
+.list a
+{
+    text-decoration: none;
+    color: black;
 }
 
 .menu{
@@ -69,7 +111,6 @@ nav
     100% {transform:translateX(0%);}
 }
 
-
 .profile
 {  
     display: grid;
@@ -77,7 +118,7 @@ nav
     text-align: left;
     width: 400px;
     height: 0px;
-    border-bottom: 100px solid bisque;
+    border-bottom: 100px solid rgb(135, 18, 2);
     border-right: 50px solid transparent;
     position: absolute;
     top: 241px;
@@ -96,6 +137,7 @@ nav
 
 .inform
 {
+    color: white;
     margin: 30px 0px 0px 20px;
 }
 
